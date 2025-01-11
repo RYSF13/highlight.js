@@ -1,0 +1,99 @@
+pre code.hljs {
+  font-size: 1.5rem;
+  box-sizing: inherit;
+  max-width: inherit;
+  overflow: hidden;
+  text-align: left;
+  color: #9baacf;
+  margin: 1.95rem;
+  padding: 1.5rem;
+  display: block;
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.2rem -0.2rem 1.8rem #fff;
+  box-sizing: inherit;
+  max-width: inherit;
+  min-height: 4.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+code.hljs {
+  padding: 1.5em;
+}
+/*!
+  Theme: hydrogen
+  Author: @RYSF13
+  Maintainer: @RYSF13
+*/
+.hljs {
+  background: #E4EBF5;
+  color: #9baacf
+}
+.hljs-comment,
+.hljs-quote {
+  color: #bec8e4
+}
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #6e45e2
+}
+.hljs-number,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #8abdff
+}
+.hljs-attribute {
+  color: #005bea
+}
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #00c6fb
+}
+.hljs-title,
+.hljs-section {
+  color: #2575fc
+}
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6d5dfc
+}
+.hljs-emphasis {
+  font-style: italic
+}
+.hljs-strong {
+  font-weight: bold
+}
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+    color: highlight
+  }
+  .hljs-keyword,
+  .hljs-selector-tag {
+    font-weight: bold
+  }
+}
